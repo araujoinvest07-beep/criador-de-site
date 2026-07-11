@@ -7,8 +7,7 @@ O objetivo é criar uma ferramenta capaz de gerar páginas web a partir da descr
 ---
 
 ## 🚀 Demonstração
-https://github.com/araujoinvest07-beep/criador-de-site
-
+[Acesse o projeto](https://github.com/araujoinvest07-beep/criador-de-site)
 ---
 
 ## 📸 Preview
