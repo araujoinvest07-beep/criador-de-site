@@ -111,7 +111,7 @@ Durante seu desenvolvimento pratiquei:
 **André Luiz Nascimento de Araújo**
 
 GitHub:
-https://github.com/SEU-USUARIO
+https://github.com/araujoinvest07-beep
 
 LinkedIn:
 (Em breve)
