@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DevClub IA - Gerador de Sites</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <p class="etiqueta">
+            ⚡ DevClub — Gerador de Sites com IA
+        </p>
+
+        <h1>
+            Crie sua Página
+            <br>
+            <span>com um prompt</span>
+        </h1>
+
+        <p class="subtitulo">
+            Descreva seu negócio e veja uma página criada automaticamente em poucos segundos.
+        </p>
+
+    </header>
+
+    <main>
+
+        <section class="caixa-entrada">
+
+            <textarea
+                id="prompt"
+                placeholder="Ex.: Crie um site moderno para uma cafeteria com cores marrom e bege, botão para WhatsApp e galeria de fotos."></textarea>
+
+            <button id="btnGerar">
+                ⚡ Gerar Site
+            </button>
+
+        </section>
+
+        <p id="status"></p>
+
+        <section class="resultado">
+
+            <div class="codigo">
+
+                <div class="codigo-topo">
+
+                    <h2>Código HTML</h2>
+
+                    <div class="acoes">
+
+                        <button id="btnCopiar">
+                            📋 Copiar
+                        </button>
+
+                        <button id="btnBaixar">
+                            💾 Baixar
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <pre><code id="codigo"></code></pre>
+
+            </div>
+
+            <div class="preview">
+
+                <div class="preview-topo">
+
+                    <h2>Pré-visualização</h2>
+
+                </div>
+
+                <iframe id="preview"></iframe>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
