@@ -7,7 +7,7 @@ O objetivo é criar uma ferramenta capaz de gerar páginas web a partir da descr
 ---
 
 ## 🚀 Demonstração
-[Acesse o projeto](https://https://araujoinvest07-beep.github.io/criador-de-site/)
+[Acesse o projeto](https://araujoinvest07-beep.github.io/criador-de-site/)
 ---
 
 ## 📸 Preview
@@ -27,8 +27,10 @@ Exemplo:
 - ✅ Geração automática de uma página HTML
 - ✅ Visualização do código gerado
 - ✅ Preview em tempo real
+- ✅ Abrir preview em nova guia
 - ✅ Copiar código HTML
 - ✅ Baixar arquivo HTML
+- ✅ Escolha automática de cores e estilo conforme o prompt
 - ✅ Layout responsivo
 
 ---

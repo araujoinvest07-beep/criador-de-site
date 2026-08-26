@@ -82,7 +82,7 @@ main{
 
 .caixa-entrada{
 
-    display:flex;
+    display:grid;
     gap:15px;
 
     background:#18181b;
@@ -91,13 +91,18 @@ main{
 
     border-radius:18px;
 
-    padding:15px;
+    padding:18px;
 
+}
+
+.entrada-principal {
+    display: grid;
+    gap: 15px;
 }
 
 #prompt{
 
-    flex:1;
+    width:100%;
 
     min-height:140px;
 
@@ -117,39 +122,51 @@ main{
 
 }
 
+.prompt-exemplo {
+    color:#a1a1aa;
+    font-size:14px;
+    line-height:1.6;
+}
+
+.entrada-acoes {
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+    justify-content:flex-end;
+}
+
+.entrada-acoes button {
+    flex:1;
+    min-width: 140px;
+}
+
 #prompt::placeholder{
 
     color:#71717a;
 
 }
 
-#btnGerar{
-
-    width:190px;
-
-    border:none;
-
-    background:#7c3aed;
-
-    color:white;
-
-    border-radius:14px;
-
-    cursor:pointer;
-
-    font-size:16px;
-
-    font-weight:700;
-
-    transition:.25s;
-
+.entrada-acoes button {
+    border: none;
+    background: #7c3aed;
+    color: white;
+    border-radius: 14px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    transition: .25s;
+    padding: 14px 22px;
 }
 
-#btnGerar:hover{
+.entrada-acoes button:hover {
+    background: #6d28d9;
+    transform: translateY(-2px);
+}
 
-    background:#6d28d9;
-    transform:translateY(-2px);
-
+.entrada-acoes button:disabled {
+    background: #3f3f46;
+    cursor: not-allowed;
+    transform: none;
 }
 
 /* ===========================
@@ -157,10 +174,21 @@ main{
 =========================== */
 
 #status{
-
     margin:18px 5px;
     color:#a1a1aa;
+    min-height:1.4em;
+}
 
+#status.sucesso {
+    color: #22c55e;
+}
+
+#status.erro {
+    color: #f97316;
+}
+
+#status.processando {
+    color: #a5b4fc;
 }
 
 /* ===========================
